@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 10
+names: ['Catla', 'Common carp', 'Mackerel', 'Murrel or Snake Head', 'Red Snapper', 'Rohu', 'Tilapia', 'Tuna', 'pomfred', 'seer']
+
+roboflow:
+  workspace: intern-5iiok
+  project: aqua-culture
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/intern-5iiok/aqua-culture/dataset/1
